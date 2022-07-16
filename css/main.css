@@ -1,0 +1,73 @@
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.avatar{
+    width:300px;
+    height:300px;
+    margin-bottom:25px;
+    border-radius:25%;
+    object-fit:cover;
+    box-shadow: 10px 10px 0px 0px black;
+}
+
+.button{
+    background-color: black;
+    color:white;
+    padding: 12px 24px;
+    margin-bottom: 100px;
+}
+
+
+.container{
+    background-image: linear-gradient(to right, rgba(255,255,255,0.7), rgba(255,255,255,0)), url('https://images.unsplash.com/photo-1639322537228-f710d846310a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80');
+    background-repeat:no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    padding: 128px;
+
+}
+
+@media screen and (max-width: 768px){
+    .container{
+        padding:48px;
+    }
+}
+
+
+.contact{
+    margin-bottom:36px;
+    font-size: 20px;
+    font-weight:300;
+}
+
+.content{
+    max-width: 500px;
+}
+
+.description{
+    font-size:20px;
+    font-weight:300;
+    color:darkblue;
+    margin-bottom:36px;
+}
+
+.job {
+    font-size:30px;
+    text-transform:uppercase;
+    margin-bottom:24px;
+}
+
+.name{
+    font-size:44px;
+    text-transform:uppercase;
+    margin-bottom:10px;
+    font-weight:1000;
+}
+
+@media screen and (max-width: 768px){
+    .name{
+        font-size:30px;
+    }
+}
+
